@@ -22,6 +22,7 @@ nav {
 nav h1 {
     font-size: 1.8em;
     color: whitesmoke;
+    cursor: pointer;
 }
 
 .nav-links a {
@@ -339,4 +340,178 @@ footer h1 {
     height: 20px;
     width: 20px;
     cursor: pointer;
+}
+
+@media (max-width: 1250px) {
+    .notificado {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 70vh;
+    }
+
+    .notificado img {
+        height: 250px;
+        width: 250px;
+        margin-top: -50px;
+    }
+
+    .notificado h1 {
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    .notificado p {
+        text-align: center;
+    }
+
+    .notificado-txt {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+
+    .notificado-inputs input {
+        width: 300px;
+    }
+
+    .notificado-inputs button {
+        width: 300px;
+    }
+}
+
+@media (max-width: 950px) {
+
+    nav {
+        padding: 0px 50px; 
+    }
+
+    header h1 {
+        font-size: 4em;
+        text-align: center;
+    }
+
+    header p {
+        text-align: center;
+    }
+
+    .areas {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .front-end {
+        height: 150px;
+        width: 150px;
+        font-size: .5em;
+    }
+
+    .back-end {
+        height: 150px;
+        width: 150px;
+        font-size: .5em;
+        margin-top: 30px;
+    }
+
+    .mobile {
+        height: 150px;
+        width: 150px;
+        font-size: .5em;
+        margin-top: 30px;
+    }
+
+    .notificado {
+        height: 70vh;
+    }
+
+    .notificado img {
+        height: 200px;
+        width: 200px;
+    }
+}
+
+@media (max-width: 760px) {
+    nav {
+        padding: 0px 10px; 
+        margin: 0px 0px;
+        font-size: 1em;
+    }
+
+    .escolha img {
+        height: 70px;
+        width: 70px;
+    }
+
+    .escolha h2 {
+        font-size: 1em;
+    }
+    
+    .desenvolva img {
+        height: 70px;
+        width: 70px;
+    }
+
+    .desenvolva h2 {
+        font-size: 1em;
+    }
+
+    .compartilhe img {
+        height: 70px;
+        width: 70px;
+    }
+
+    .compartilhe h2 {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 680px) {
+
+    nav {
+        padding: 0px 30px;
+        height: 130px;
+    }
+
+    .nav-links {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    footer {
+        padding: 0px 50px;  
+    }
+}
+
+@media (max-width: 500px) {
+    .notificado {
+        height: 70vh;
+    }
+
+    .notificado img {
+        height: 200px;
+        width: 200px;
+    }
+}
+
+@media (max-width: 450px) {
+    footer {
+        padding: 0px 10px;
+    }
+
+    header h1 {
+        font-size: 2.5em;
+    }
+
+    header p {
+        font-size: 1em;
+        text-align: center;
+    }
 }
